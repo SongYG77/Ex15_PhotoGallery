@@ -8,6 +8,13 @@
 import UIKit
 import MobileCoreServices   // 아이폰이 기본 내장하고있는 포토앨범, 카메라를 사용할 수 있는 라이브러리
 
+//핸드폰의 라이브러리 접근을 위해선 다음 옵션을 info.plist에 추가해야 한다.
+
+//Privacy - Photo Library Additions Usage Description
+//Privacy - Photo Library Usage Description
+
+
+
 class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
     @IBOutlet weak var ImageView: UIImageView!
